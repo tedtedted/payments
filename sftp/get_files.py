@@ -40,9 +40,9 @@ UseGSSAPI = False        # enable GSS-API / SSPI authentication
 DoGSSAPIKeyExchange = False
 Port = 22
 
-username = 'gckaiser'
-password = '1B6a5c0'
-hostname = 'sft.globalcollect.com'
+username = USERNAME_HERE
+password = PASSWORD_HERE
+hostname = URL_HERE
 
 # get host key, if we know one
 hostkeytype = None
