@@ -13,7 +13,7 @@ class Person():
         self.locale_code = _return_locale()
         self.l = Locale.parse(self.locale_code)
         self.fake = Faker(self.locale_code)
-
+        self.phone_number = self.fake.phone_number()
         self.first_name = self.fake.first_name()
         self.last_name = self.fake.last_name()
         self.email = self.fake.email()
