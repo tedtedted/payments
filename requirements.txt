@@ -2,7 +2,7 @@ Babel==2.5.1
 certifi==2017.11.5
 chardet==3.0.4
 connect-sdk-python3==2.15.0
-Django==2.0
+Django==2.2.13
 Faker==0.8.7
 idna==2.6
 python-dateutil==2.6.1
